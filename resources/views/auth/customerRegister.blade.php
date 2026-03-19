@@ -120,8 +120,6 @@
                                     @enderror
                                 </span>
                             </div>
-
-                            <!-- Profile Image -->
                             <div class="mb-3">
                                 <label class="form-label">Profile Image</label>
                                 <input type="file" name="image" class="form-control" accept="image/*">
@@ -131,8 +129,6 @@
                                     @enderror
                                 </span>
                             </div>
-
-                            <!-- Password -->
                             <div class="mb-3 position-relative">
                                 <label class="form-label">Password</label>
                                 <input type="password" id="password" name="password" class="form-control" placeholder="Create password">
@@ -146,7 +142,6 @@
                                     @error('password') {{$message}} @enderror
                                 </span>
                             </div>
-
                             <div class="mb-4 position-relative">
                                 <label class="form-label">Confirm Password</label>
                                 <input type="password" id="confirm_password" class="form-control" placeholder="Confirm password" required>
@@ -157,9 +152,6 @@
                                     @error('Confirm password') {{$message}} @enderror
                                 </span>
                             </div>
-
-
-                            <!-- Register Button -->
                             <div class="mt-4 d-flex gap-3">
                                 <button type="submit" class="btn btn-primary">
                                     Register Now
@@ -168,8 +160,6 @@
                                     Cancel
                                 </a>
                             </div>
-
-                            <!-- Login Link -->
                             <div class="text-center mt-4">
                                 Already have an account?
                                 <a href="{{route('customerLogin')}}" class="text-decoration-none fw-semibold">

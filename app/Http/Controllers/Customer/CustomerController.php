@@ -28,7 +28,6 @@ class CustomerController extends Controller
     public function customerlogin(CustomerLoginRequest $request)
 
     {
-        // Validation already done by LoginRequest
         if (Auth::guard('customer')->attempt($request->only(
             'email',
             'password'
