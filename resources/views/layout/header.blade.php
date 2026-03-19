@@ -54,8 +54,7 @@
             <div class="col-md-4 col-lg-3 text-center text-lg-start">
                 <div class="d-inline-flex align-items-center">
                     <a href="{{route('welcome')}}" class="navbar-brand p-0">
-                        <h1 class="display-5 text-primary m-0"><img class="me-2" style="border-radius: 50%; border:1px solid black;" height="70" width="70" src="{{officeSetting()->logo}}" alt="Logo">{{officeSetting()->name}}</h1>
-                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                        <h1 class="display-5 text-primary m-0"><img class="me-2" style="border-radius: 50%; border:1px solid black;" height="70" width="70" src="{{officeSetting()?->logo}}" alt="Logo">{{officeSetting()?->name}}</h1>
                     </a>
                 </div>
             </div>

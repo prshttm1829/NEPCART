@@ -34,7 +34,7 @@
           href="javascript:void(0);"
           data-bs-toggle="dropdown">
           <div class="avatar avatar-online">
-            <img src="{{officeSetting()->logo}}" alt="alt" class="rounded-circle" />
+            <img src="{{officeSetting()?->logo}}" alt="alt" class="rounded-circle" />
           </div>
         </a>
 
@@ -44,7 +44,7 @@
               <div class="d-flex">
                 <div class="flex-shrink-0 me-3">
                   <div class="avatar avatar-online">
-                    <img src="{{officeSetting()->logo}}" alt="alt" class="w-px-40 h-auto rounded-circle" />
+                    <img src="{{officeSetting()?->logo}}" alt="alt" class="w-px-40 h-auto rounded-circle" />
                   </div>
                 </div>
                 <div class="flex-grow-1">
